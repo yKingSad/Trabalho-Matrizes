@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #76B9F0;
+}
+
+#title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+h1, h2, p {
+    color: #FFF;
+    font-family: "Prompt", sans-serif;
+}
+
+.subtitle, .center {
+    text-align: center;
+}
+
+.explicacao {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#tabela-container-1, #tabela-container-2{
+    display: flex;
+}
+
+.table-edit{
+    border-collapse: collapse;
+}
+
+.edit{
+    padding: 10px;
+    border: 3px solid #ddd;
+}
+
+.espaco-cima {
+    margin-top: 60px;
+}
